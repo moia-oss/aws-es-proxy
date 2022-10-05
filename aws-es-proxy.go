@@ -7,7 +7,6 @@ import (
 	"flag"
 	"fmt"
 	"io"
-	"io/ioutil"
 	"log"
 	"net/http"
 	"net/http/cookiejar"
@@ -467,8 +466,8 @@ func replaceBody(req *http.Request) []byte {
 	if req.Body == nil {
 		return []byte{}
 	}
-	payload, _ := ioutil.ReadAll(req.Body)
-	req.Body = ioutil.NopCloser(bytes.NewReader(payload))
+	payload, _ := io.ReadAll(req.Body)
+	req.Body = io.NopCloser(bytes.NewReader(payload))
 	return payload
 }
 
