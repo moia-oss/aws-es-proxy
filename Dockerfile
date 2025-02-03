@@ -5,7 +5,7 @@ COPY . .
 
 RUN CGO_ENABLED=0 GOOS=linux go build -o aws-es-proxy
 
-FROM alpine:3.21.0
+FROM alpine:3.21.2
 LABEL name="aws-es-proxy" \
       version="latest"
 
