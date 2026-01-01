@@ -1,4 +1,4 @@
-FROM golang:1.25.3-alpine
+FROM golang:1.25.5-alpine
 
 WORKDIR /go/src/github.com/abutaha/aws-es-proxy
 COPY . .
