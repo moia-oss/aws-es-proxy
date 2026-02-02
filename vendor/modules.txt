@@ -45,8 +45,8 @@ github.com/aws/aws-sdk-go/service/sts/stsiface
 # github.com/jmespath/go-jmespath v0.4.0
 ## explicit; go 1.14
 github.com/jmespath/go-jmespath
-# github.com/sirupsen/logrus v1.9.3
-## explicit; go 1.13
+# github.com/sirupsen/logrus v1.9.4
+## explicit; go 1.17
 github.com/sirupsen/logrus
 # go.mongodb.org/mongo-driver v1.17.6
 ## explicit; go 1.18
