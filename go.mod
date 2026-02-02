@@ -5,7 +5,7 @@ go 1.24.0
 require (
 	github.com/aws/aws-sdk-go v1.55.7
 	github.com/sirupsen/logrus v1.9.4
-	go.mongodb.org/mongo-driver v1.17.6
+	go.mongodb.org/mongo-driver v1.17.8
 	golang.org/x/net v0.46.0
 )
 
